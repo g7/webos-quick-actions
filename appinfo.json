@@ -1,0 +1,27 @@
+{
+	"id"              : "eu.medesimo.quickactions",
+	"version"         : "1.1.1",
+	"icon"            : "icon.png",
+	"vendor"          : "Eugenio Paolantonio",
+	"type"            : "web",
+	"main"            : "index.html",
+	"title"           : "webOS Quick Actions",
+	"uiRevision"      : "2",
+	"noWindow"        : "true",
+	"keywords"        : ["quick","actions"],
+	"universalSearch" : {
+		"action": { 
+			"displayName" : "Execute Quick Action",
+			"url"         : "eu.medesimo.quickactions",
+			"launchParam" : {"execute":"#{searchTerms}"}
+		},
+		"dbsearch":{
+			"displayName"       : "Quick Actions",
+			"url"               : "eu.medesimo.quickactions",
+			"launchParam"       : "execute_from_search",
+			"launchParamDbField": "_id",
+			"displayFields"     : ["name", "type"],
+			"dbQuery"           : {"from":"eu.medesimo.quickactions:1", "where":[{"prop":"name","op":"?","val":"","collate":"primary", "tokenize":"all"}],"orderBy":"name","limit":20}
+		}
+   } 
+}

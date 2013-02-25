@@ -1,0 +1,94 @@
+{
+	"Insert the website you'd like to open at action execution.<br />Arguments are supported, see the Help.<br /><br />For example: <i>http://www.google.it/search?q=@join(+)@</i>":"Inserire il sito web da aprire.<br />Gli argomenti sono supportati, consultare la Guida.<br /><br />Per esempio: <i>http://www.google.it/search?q=@join(+)@</i>",
+	
+	"Insert here the webpage to open":"Inserire qua la pagina web da aprire",
+	
+	"Insert the ID of the application you'd like to open.<br />Arguments are supported, see the Help.<br /><br />Some examples:<br /><i>com.palm.app.browser</i> - Opens the browser application<br /><i>@1@</i> - Opens the application passed as the first argument (see the Help)":"Inserire l'ID dell'applicazione che si vuole aprire.<br />Gli argomenti sono supportati, consultare la Guida.<br /><br />Qualche esempio:<br /><i>com.palm.app.browser</i> - Apre il browser<br /><i>@1@</i> - Apre l'applicazione passata come primo argomento (consultare la Guida)",
+	
+	"Insert the application ID to open":"Inserire qua l'ID dell'applicazione da lanciare",
+	
+	"This action permits to launch an application and pass one parameter to it.<br />Parameters vary from application to application.<br />Refer to the to-be-launched application developer for more details.":"Questa azione permette di lanciare un'applicazione e passarle un parametro.<br />I parametri variano da applicazione ad applicazione.<br />Riferirsi allo sviluppatore dell'applicazione che dovrà essere lanciata per ottenere più informazioni.",
+	
+	"Insert the parameter NAME to pass to the application.<br />Arguments are supported, see the Help.<br /><br />For example:<br /><i>target</i> - Use the parameter name 'target'":"Inserire il NOME del parametro da passare all'applicazione.<br />Gli argomenti sono supportati, consultare la Guida.<br /><br />Per esempio:<br /><i>target</i> - Usa 'target' come nome del parametro",
+	
+	"Insert the parameter name":"Inserire il nome del parametro",
+	
+	"Insert the parameter VALUE to pass to the application.<br />Arguments are supported, see the Help.<br /><br />For example:<br /><i>http://semplice-linux.org</i> - Use the parameter value 'http://semplice-linux.org'":"Inserire il VALORE del parametro da passare all'applicazione.<br />Gli argomenti sono supportati, consultare la Guida.<br /><br />Per esempio:<br /><i>http://semplice-linux.org</i> - Usa 'http://semplice-linux.org' come valore del parametro",
+	
+	"Insert the parameter value":"Inserire il valore del parametro",
+	
+	"This action enables/disables the Airplane mode of your device.<br /><br />Call this action with the 'on' or 'off' arguments to enable or disable it.<br /><br />For example (if action name is <i>airplane</i>):<br /><i>airplane on</i> - Enables airplane mode<br /><i>airplane off</i> - Disables airplane mode":"Quest'azione abilita/disabilita la modalità aereo del device.<br /><br />È necessario passsare gli argomenti 'on' o 'off' per, rispettivamente, abilitarla e disabilitarla.<br /><br />Per esempio (se il nome dell'azione è <i>airplane</i>):<br /><i>airplane on</i> - Abilita la modalità aereo<br /><i>airplane off</i> - Disabilita la modalità aereo.",
+	
+	"webOS Quick Actions" :"webOS Quick Actions",
+	
+	"Untitled":"Senza Nome",
+	
+	"General":"Generale",
+	
+	"Choose an action":"Scegliere un'azione",
+	
+	"Name":"Nome",
+	
+	"About":"Informazioni",
+	
+	"Help":"Guida",
+	
+	"webOS Quick Actions by Eugenio Paolantonio.":"webOS Quick Actions scritto da Eugenio Paolantonio",
+	
+	"<h1>Help</h1>":"<h1>Guida</h1>",
+	"webOS Quick Actions permits to use Just Type to accomplish different things.<br /><br />":"webOS Quick Actions permette di usare la funzione Scrivi e Trova per fare diverse cose.<br /><br />",
+	
+	"<h3>Configuring Just Type</h3>":"<h3>Configurazione dello Scrivi e Trova</h3>",
+	
+	"Open the Just Type preferences (you'll find it into the <b>System</b> tab of your Launcher), then enable/add the webOS Quick Actions items on <b>'Content'</b> and <b>'Actions'</b>.":"Aprire le preferenze dello Scrivi e Trova (disponibili nella scheda <b>Sistema</b> del Launcher), poi abilitare/aggiungere le componenti di webOS Quick Actions in <b>'Contenuto'</b> e <b>'Azioni'</b>.",
+	
+	"You are now ready to use webOS Quick Actions! Use the <b>Add</b> button on the application (the one on the toolbar) to add a new action.":"È ora possibile usare webOS Quick Actions! Usare il pulsante <b>Aggiungi</b> (nella toolbar) per aggiungere una nuova azione.",
+	
+	"After adding the action, you can call it via just type. If the action does not appear (due to arguments), use the <b>'Execute Quick Action'</b> item.":"Dopo aver aggiunto l'azione, è possibile chiamarla tramite lo Scrivi e Trova. Se l'azione non appare (a causa degli argomenti), usare il pulsante <b>'Esegui Azione Rapida'</b>",
+	
+	"<h3>Supported actions</h3>":"<h3>Azioni supportate</h3>",
+	
+	"Currently, the following <b>actions</b> are supported:<br /><br /><ul><li>Web</li><li>Launch</li><li>Launch (advanced)</li></ul>":"Per il momento, le seguenti <b>azioni</b> sono supportate:<br /><br /><ul><li>Web</li><li>Launch</li><li>Launch (advanced)</li></ul>",
+	
+	"When selecting an action, an Help message for it appears.":"Quando si seleziona un'azione, un messaggio di aiuto appare.",
+	
+	"To configure actions beahviour, you can use <b>arguments</b>. Arguments are simply the words passed at the Just Type input box.":"Per modificare il comportamento delle azioni, è possibile usare gli <b>argomenti</b>. Gli argomenti sono semplicemente le parole passate nella casella di testo dello Scrivi e Trova.",
+	
+	"For example, when writing in Just Type <i>'myaction arg1 arg2'</i>, the arguments are 'arg1' and 'arg2'.":"Per esempio, se si scrive nello Scrivi e Trova <i>'myaction arg1 arg2'</i>, gli argomenti saranno 'arg1' e 'arg2'.",
+	
+	"<h3>Arguments and other advanced things</h3>":"<h3>Argomenti e altre cose avanzate</h3>",
+	
+	"Arguments are referred on webOS Quick Actions with <b>@number@</b>. So, <i>'arg1'</i> in the previous example would be <b>'@1@'</b>.":"Gli argomenti sono riferiti su webOS Quick Actions come <b>@numero@</b>. Quindi, <i>'arg1'</i> (esempio precedente) diventa <b>'@1@'</b>.",
+	
+	"Every argument can be get with this notation (also, the action <b>name</b> can be obtained with <b>@0@</b>).":"Tutti gli argomenti possono essere presi usando questa notazione (in aggiunta, il <b>nome</b> dell'azione può essere ottenuto con <b>@0@</b>).",
+	
+	"<h4>Joining</h4>":"<h4>Joining</h4>",
+	
+	"All arguments can be 'joined' so they can be grouped using a common delimiter. You can use <b>@join(delimiter)@</b> to do so.":"Tutti gli argomenti possono essere 'joinati' per raggrupparli attraverso un delimitatore comune. È possibile usare <b>@join(delimitatore)@</b> per farlo.",
+	
+	"For example, <b>@join(+)@</b> will join every argument passed (@1@, @2@, etc) with the <i>'+'</i> delimiter.":"Per esempio, <b>@join(+)@</b> raggrupperà tutti gli argomenti passati (@1@, @2@, etc) con il delimitatore <i>'+'</i>.",
+	
+	"So, if from Just Type you passed <i>'myaction arg1 arg2'</i>, you'll get <u>'arg1+arg2'</u>.":"Quindi, se sullo Scrivi e Trova si è scritto <i>'myaction arg1 arg2'</i>, il risultato sarà <u>'arg1+arg2'</u>.",
+	
+	"A shortcut for @join( )@ (joining with a space as delimiter) is <b>@*@</b>":"Una scorciatoia per @join( )@ (raggruppamento usando uno spazio come delimitatore) è <b>@*@</b>",
+	
+	"Following the previous example, <b>@*@</b> will translate to <u>'arg1 arg2'</u>":"Seguendo l'esempio precedente, <b>@*@</b> diventerà <u>'arg1 arg2'</u>",
+	
+	"<h4>Shifting</h4>":"<h4>Shifting</h4>",
+	
+	"Shifting an argument will simply remove it from the list (from the start).":"Fare lo 'shift' di un argomento lo rimuove semplicemente dalla lista degli argomenti (paretendo dall'inizio).",
+	
+	"Just Type example: <i>'myaction arg1 arg2 arg3 arg4'</i>":"Esempio sullo Scrivi e Trova: <i>'myaction arg1 arg2 arg3 arg4'</i>",
+	
+	"In this case, @1@ is 'arg1'. If we use <b>@shift()@</b>, arg1 is removed and, when joining, you'll not get it.":"In questo caso, @1@ è 'arg1'. Se si usa <b>@shift()@</b>, arg1 viene rimosso e, quando si farà lo joining, non apparirà.",
+	
+	"<b>NOTE:</b> You'll still get the argument using @1@! This only affects joining. A join made <b>BEFORE</b> the shift will show the first argument, too.": "<b>NOTA:</b> È possibile comunque prendere l'argomento usando @1@! Lo shifting riguarda solo lo joining. Un join fatto <b>PRIMA</b> dello shift mostrerà anche il primo argomento.",
+	
+	"To shift more than one arguments, you can use <b>@shift(number)@</b>, for example: <b>@shift(2)@</b>":"Per fare lo shift di più di un argomento, è possibile usare <b>@shift(numero)@</b>, per esempio: <b>@shift(2)@</b>",
+	
+	"Close":"Chiudi",
+	
+	"Executing your action... please wait :-)":"Sto eseguendo l'azione... attendere :-)",
+	
+	"If this window does not close automatically, something went wrong.<br />Please recheck your action and its arguments.":"Se questa finestra non viene chiusa automaticamente, qualcosa è andato storto.<br />Ricontrollare l'azione ed i suoi argomenti.",
+}

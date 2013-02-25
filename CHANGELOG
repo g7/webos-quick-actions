@@ -1,0 +1,26 @@
+1.1.1
+=====
+
+* Fixed variables replacement bug
+
+1.1.0
+=====
+
+* Added Launch (advanced) action
+* Some translation corrections
+* Made parseString work on a cloned arguments array
+
+1.0.2-1.0.3
+===========
+
+Workaround on a palm-package bug.
+
+1.0.1
+=====
+
+Removed airplane action.
+
+1.0.0
+=====
+
+Initial release.
